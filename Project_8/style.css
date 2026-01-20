@@ -48,9 +48,10 @@ body {
   border: none;
   transition: all 0.5s;
   cursor: pointer;
-  &:hover {
-    background-color: rgba(0, 0, 255, 0.604);
-  }
+}
+
+#search-btn:hover {
+  background-color: rgba(0, 0, 255, 0.604);
 }
 
 #loading {
