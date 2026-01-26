@@ -55,3 +55,16 @@ body{
 #restart:hover{
     opacity: 70%;
 }
+
+.win{
+    animation: winAnimation ease-in-out 1s infinite;
+}
+
+@keyframes winAnimation{
+    0%{
+        background-color: #649bc3;
+    }
+    100%{
+        background-color: #ACBAC4;
+    }
+}
